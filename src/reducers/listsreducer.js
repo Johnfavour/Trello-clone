@@ -5,35 +5,53 @@ let cardID = 5;
 
 const initialState = [
     {
-        title: 'Last Episode',
+        title: 'Proposed',
         id: `list-${0}`,
         cards: [
             {
                 id: `card-${0}`,
-                text: 'we created a static list and a static card'
+                text: 'implement Login'
             },
             {
                 id: `card-${1}`,
-                text: 'we used a mix between material UI React and styled components'
+                text: 'Create ability to sign up as a new user'
             }
         ]
     },
     {
-        title: 'This Episode',
+        title: 'Approved',
         id: `list-${1}`,
         cards: [
             {
                 id: `card-${2}`,
-                text: 'we will create our first reducer'
+                text: 'Create presentation'
             },
             {
                 id: `card-${3}`,
-                text: 'render many cards on our list with static data'
+                text: 'Create project landing page'
             },
             {
                 id: `card-${4}`,
-                text: 'we will also make some little changes I forgot'
+                text: 'Write comprehensive README.md'
+            },
+            {
+                id: `card-${5}`,
+                text: 'Make demo of the project'
+            },
+            {
+                id: `card-${6}`,
+                text: 'Write blog post'
             }
+        ]
+    },
+    {
+        title: 'Deployed',
+        id: `list-${3}`,
+        cards: [
+            {
+                id: `card-${9}`,
+                text: 'Deployed'
+            },
         ]
     },
 ]

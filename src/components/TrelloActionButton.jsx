@@ -1,27 +1,3 @@
-// import React from 'react'
-// import icon from '@mui/icons-material'
-
-// class TrelloActionButton extends React.Component {
-//     renderAddButton = ( ) => {
-//         const {list} = this.props;
-
-//         const buttonText = list ? 'Add another list' : 'Add another card'
-
-//         return (
-//             <div>
-//                 <icon>add</icon>
-//                 <p>{buttonText}</p>
-//             </div>
-//         )
-//     }
-    
-//     render () {
-//         return this.renderAddButton;
-//     }
-// }
-
-// export default TrelloActionButton
-
 import React from 'react';
 import { Add } from '@mui/icons-material'; 
 import Icon from '@mui/material/Icon';

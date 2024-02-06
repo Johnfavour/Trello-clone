@@ -43,7 +43,7 @@ const TrelloList = ({title, cards, listID, index}) => {
 
 const ListContainer = styled.div`
   background-color: #dfe3e6;
-  border-radius: 3px;
+  border-radius: 13px;
   width: 300px;
   padding: 8px;
   height: 100%;

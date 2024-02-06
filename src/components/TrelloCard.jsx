@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
 import { Draggable } from 'react-beautiful-dnd'
 import styled from 'styled-components'
+import './App.css'
 
 const TrelloCard = ({text, id, index}) => {
   return (
@@ -17,7 +18,7 @@ const TrelloCard = ({text, id, index}) => {
       <Card>
         <CardContent>
           <Typography 
-            sx={{ fontSize: 14 }}
+            sx={{ fontSize: 13 }}
             gutterBottom>
             {text}
           </Typography>
@@ -31,7 +32,7 @@ const TrelloCard = ({text, id, index}) => {
 }
 
 const CardContainer = styled.div`
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 `
 
 
