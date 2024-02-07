@@ -24,7 +24,8 @@ const App = ({ lists }) => {
         destination.droppableId,
         source.index,
         destination.index,
-        draggableId
+        draggableId,
+        type
       )
     );
 
